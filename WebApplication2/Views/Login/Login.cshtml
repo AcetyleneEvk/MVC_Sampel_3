@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <form action="Texts" method="POST">
+            <input type="text" id="username" name="username"><br>
+            <input type="text" id="userpassword" name="userpassword"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>@ViewBag.ErrorMessage</p>
+    </div>
+</body>
+
+</html>

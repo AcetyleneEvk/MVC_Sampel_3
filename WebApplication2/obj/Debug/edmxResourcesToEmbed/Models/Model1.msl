@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SOTWOModelStoreContainer" CdmEntityContainer="SOTWOEntities">
+    <EntitySetMapping Name="TEST_Table">
+      <EntityTypeMapping TypeName="SOTWOModel.TEST_Table">
+        <MappingFragment StoreEntitySet="TEST_Table">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="userPassword" ColumnName="userPassword" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

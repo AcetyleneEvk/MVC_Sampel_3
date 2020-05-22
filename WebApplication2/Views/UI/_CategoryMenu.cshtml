@@ -1,0 +1,30 @@
+﻿
+<!DOCTYPE html>
+@using WebApplication2.Models
+@model List<CategoryEnity>
+
+
+<nar class="navbar-inverse" role="navigation">
+    <div class="navbar-inverse" >
+        <ul>
+            @foreach(var item in this.Model)
+            {
+                <li>
+                    <a href="#">@item.userName</a>
+                </li>
+            }
+        </ul>
+    </div>
+
+</nar>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title></title>
+    </head>
+    <body>
+        <div>
+
+        </div>
+    </body>
+</html>
